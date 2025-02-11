@@ -17,7 +17,8 @@
 	<modules>
 		<module>authorization-server</module>
         <module>authorization-oauth2-client</module>
-    </modules>
+		<module>oauthorization-resource</module>
+	</modules>
 
 	<properties>
 		<java.version>21</java.version>
