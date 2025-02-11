@@ -137,6 +137,7 @@ public class SecurityConfig {
                 .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
                 .authorizationGrantType(AuthorizationGrantType.REFRESH_TOKEN)
                 .authorizationGrantType(AuthorizationGrantType.CLIENT_CREDENTIALS)
+                // 客户端服务
                 .redirectUri("http://spring-oauth-client:9001/login/oauth2/code/messaging-client-oidc")
                 // 暂时还没有客户端服务，以免重定向跳转错误导致接收不到授权码
                 .redirectUri("https://www.baidu.com")
